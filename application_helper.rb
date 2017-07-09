@@ -6,7 +6,7 @@ module ApplicationHelper
       menu_item('about', about_path),
       menu_item('gallery', gallery_path),
       menu_item('prices', prices_path),
-      menu_item('articles', articles_1_path),
+      menu_item('articles', articles_path),
       menu_item('contacts', contacts_path),
     ].join.html_safe
   end
